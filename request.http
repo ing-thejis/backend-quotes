@@ -1,0 +1,13 @@
+@url_base = http://127.0.0.1:8000/
+
+###
+GET {{url_base}}/quotes/
+
+###
+POST {{url_base}}/quotes/
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "detail": "This is a test quote"
+}

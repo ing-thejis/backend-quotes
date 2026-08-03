@@ -1,0 +1,35 @@
+# Python (Archivos compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+
+# Base de datos local (SQLite)
+*.sqlite3
+
+# Variables de entorno y llaves secretas
+.env
+.env.local
+.secret
+secrets.json
+
+# Archivos de configuración de editores de código (IDE)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Archivos cargados por usuarios (Media)
+media/
+
+# rest client files
+*.http
+*.rest
